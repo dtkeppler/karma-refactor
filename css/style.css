@@ -1,0 +1,79 @@
+/************ GENERAL ***************/
+
+header {
+	margin-top: 10px;
+	margin-bottom: 10px;
+}
+
+
+/************ NAV *******************/
+
+.nav-icon {
+	width: 30px;
+}
+
+.nav-menu li {
+	display: inline;
+	font-family: 'Open Sans', sans-serif;
+	font-weight: 600;
+}
+
+.nav-menu {
+	float: right;
+}
+
+.nav-icon,
+.nav-menu {
+	display: inline-block;
+}
+
+.nav-menu ul {
+	margin-right: 200px;
+}
+
+.nav-menu a {
+	padding-left: 20px;
+}
+
+.nav-icon {
+	margin-left: 200px;
+}
+
+a:link,
+a:visited {
+	text-decoration: none;
+	color: #AAAAAA;
+}
+
+a:active,
+a:hover {
+	color: #0A0A0A;
+}
+
+#nav-main {
+	color: #171717;
+}
+
+
+/************ SECTIONS ***************/
+
+.intro {
+	background-image: url("../img/first-background.jpg");
+	height: 650px;
+	width: auto;
+	text-align: center;
+}
+
+.intro h1 {
+	display: inline;
+	font-family: 'Open Sans', sans-serif;
+	font-weight: 300;
+	font-size: 2.5em;
+	color: #fff;
+}
+
+.intro h3 {
+	font-family: 'Open Sans', sans-serif;
+	font-weight: 300;
+	color: #fff;
+}
