@@ -6,10 +6,13 @@ header {
 }
 
 
+
 /************ BASE STYLES ***********/
 
 .nav-menu li,
-.intro-content {
+.intro-content,
+.options,
+.contact {
 	font-family: 'Open Sans', sans-serif;
 }
 
@@ -62,7 +65,7 @@ a:hover {
 }
 
 
-/************ SECTIONS ***************/
+/************ INTRO SECTION ***************/
 
 .intro {
 	background-image: url("../img/first-background.jpg");
@@ -89,8 +92,61 @@ a:hover {
 
 .intro-button {
 	background-color: #F27935;
+	color: white;
 	width: 110px;
 	height: 50px;
 	border: none;
 	border-radius: 5px;
+}
+
+
+
+/************ OPTIONS SECTION ***************/
+
+.options {
+	margin: 75px 0px 150px;
+}
+
+.options h1 {
+	font-size: 2.2em;
+	font-weight: 400;
+	text-align: center;
+}
+
+.options ul {
+	padding-right: 216px; 
+	padding-left: 216px;
+	display: inline-flex;
+
+}
+
+.options li {
+	padding-top: 60px;
+	list-style-type: none;
+	width: 300px;
+}
+
+.options img {
+	width: 150px;
+	display: block;
+	margin-right: auto;
+	margin-left: auto;
+}
+
+.options h3 {
+	text-align: center
+}
+
+
+/************ FOOTER ***************/
+
+.contact p {
+	text-align: center;
+	font-size: 0.9em;
+}
+
+hr {
+	width: 700px;
+	margin-left: 316px;
+	margin-right: 316px;
 }
