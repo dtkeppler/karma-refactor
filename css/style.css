@@ -150,3 +150,41 @@ hr {
 	margin-left: 316px;
 	margin-right: 316px;
 }
+
+.contact li {
+	list-style: none;
+	display: block;
+	margin-right: auto;
+	margin-left: auto;
+	margin: 10px;
+	display: inline-flex;
+}
+
+.social-icons {
+	width: 190px;
+	padding-left: 571px;
+	padding-right: 572px;
+}
+
+.fa-twitter,
+.fa-facebook,
+.fa-instagram {
+	display: block;
+	padding: 10px;
+	width: 18px;
+	border-radius: 100%;
+	text-align: center;
+	border: solid 1px #999999;
+}
+
+.fa-twitter {
+	color: #42C0FB;
+}
+
+.fa-facebook {
+	color: #42647F;
+}
+
+.fa-instagram {
+	color: #517693;
+}
