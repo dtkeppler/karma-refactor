@@ -67,6 +67,10 @@ a:hover {
 
 /************ INTRO SECTION ***************/
 
+body {
+	margin: 0;
+}
+
 .intro {
 	background-image: url("../img/first-background.jpg");
 	height: 650px;
